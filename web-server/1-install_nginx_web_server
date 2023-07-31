@@ -1,0 +1,6 @@
+#!/usr/env bash
+# installs the reverse proxy - Nginx
+sudo apt updata && upgrade
+sudo apt install nginx -y
+echo "Holberton School" | sudo tee /var/www/html/index.html
+sudo service nginx start
